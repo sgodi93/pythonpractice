@@ -1,0 +1,22 @@
+""" User Inputs to fill the bio data """
+
+first_name = input("Please enter your firs name: ")
+middle_name = input("Please enter your middle name: ")
+last_name = input("Please enter your last name: ")
+birth_month = input("Please enter your birth month (1-12): ")
+birth_date = input("Please enter your birth date: ")
+birth_year = input("Please enter your birth year: ")
+contact_number = input("Please enter your contact number: ")
+email_id = input("please enter your email id: ")
+city = input("please enter your current city: ")
+state = input("Please enter your current state: ")
+zipcode = input("Please enter your zipcode: ")
+
+print("BioData".center(35))
+print("Name             : ", " ".join([first_name, middle_name, last_name]).title())
+print("Date Of Birth    : ", "-".join([birth_month, birth_date, birth_year]))
+print(f"Contact Number  : {contact_number}")
+print(f"Email ID        : {email_id}")
+print(f"City            : {city}".title())
+print(f"State           : {state}".title())
+print(f"Zipcode         : {zipcode}")
